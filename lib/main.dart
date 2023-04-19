@@ -442,7 +442,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 width: keyboard_size,height: keyboard_size,
                               ),
                               IconButton (
-                                color: Colors.black.withOpacity(opa_keyboard),
+                                color: Colors.white.withOpacity(opa_keyboard),
                                 padding: const EdgeInsets.all(0),
                                 icon:  Icon(Icons.start, size: keyboard_size),
                                 onPressed: () {
@@ -462,7 +462,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             IconButton (
                               padding: const EdgeInsets.all(0),
-                              color: Colors.black.withOpacity(opa_keyboard),
+                              color: Colors.white.withOpacity(opa_keyboard),
                               icon:  Icon(Icons.arrow_left, size: keyboard_size),
                               onPressed: () {
                                  setState(() {
@@ -472,7 +472,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             IconButton (
                               padding: const EdgeInsets.all(0),
-                              color: Colors.black.withOpacity(opa_keyboard),
+                              color: Colors.white.withOpacity(opa_keyboard),
                               icon:  Icon(Icons.replay, size: keyboard_size),
                               onPressed: () {
                                 setState(() {
@@ -483,7 +483,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                             IconButton (
                               padding: const EdgeInsets.all(0),
-                              color: Colors.black.withOpacity(opa_keyboard),
+                              color: Colors.white.withOpacity(opa_keyboard),
                               icon:  Icon(Icons.arrow_right, size: keyboard_size),
                               onPressed: () {
                                setState(() {
@@ -501,7 +501,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 width: keyboard_size,height: keyboard_size,
                               ),
                               IconButton (
-                                color: Colors.black.withOpacity(opa_keyboard),
+                                color: Colors.white.withOpacity(opa_keyboard),
                                 padding: const EdgeInsets.all(0),
                                 icon:  Icon(Icons.arrow_downward, size: keyboard_size),
                                 onPressed: () {
